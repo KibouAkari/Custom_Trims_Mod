@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "simis_custom_trims",
+  "id": "customtrims",
   "version": "1.0.0",
   "name": "Simis Custom Trims",
   "description": "Adds glowing trims and dyed elytras.",
@@ -8,9 +8,7 @@
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "com.example.simistrims.SimisCustomTrims"
-    ]
+    "main": ["com.example.customtrims.CustomTrims"]
   },
   "depends": {
     "fabricloader": ">=0.15.0",
@@ -18,4 +16,3 @@
     "fabric-api": "*"
   }
 }
-
