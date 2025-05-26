@@ -1,5 +1,4 @@
-
-package com.example.simistrims;
+package com.example.customtrims;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
@@ -10,7 +9,8 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 
-public class SimisCustomTrims implements ModInitializer {
+public class CustomTrims implements ModInitializer {
+
     @Override
     public void onInitialize() {
         UseEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
@@ -32,6 +32,7 @@ public class SimisCustomTrims implements ModInitializer {
                 player.sendMessage(Text.literal("Trims are now glowing!"), true);
                 return ActionResult.SUCCESS;
             }
+
             return ActionResult.PASS;
         });
     }
@@ -56,8 +57,8 @@ public class SimisCustomTrims implements ModInitializer {
         };
 
         NbtCompound display = stack.getOrCreateSubNbt("display");
-        display.putBoolean("simis_glow", true);
-        display.putInt("simis_glow_color", color);
+        display.putBoolean("glow_enabled", true);  // vorher: simis_glow
+        display.putInt("glow_color", color);       // vorher: simis_glow_color
         return true;
     }
 }
