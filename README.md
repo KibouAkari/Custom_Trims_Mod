@@ -11,7 +11,7 @@ A lightweight Minecraft Fabric mod for version **1.21.5** that expands Elytra cu
 ## Installation
 
 1. Install [Fabric Loader](https://fabricmc.net/) and [Fabric API](https://modrinth.com/mod/fabric-api) for Minecraft `1.21.5`.
-2. Download the compiled `simis_custom_trims.jar` file.
+2. Download the compiled `custom_trims.jar` file.
 3. Place the file in your `.minecraft/mods` directory.
 4. Launch the game using the Fabric profile.
 
