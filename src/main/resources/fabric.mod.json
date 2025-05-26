@@ -1,18 +1,20 @@
 {
   "schemaVersion": 1,
   "id": "customtrims",
-  "version": "1.0.0",
-  "name": "Simis Custom Trims",
-  "description": "Adds glowing trims and dyed elytras.",
-  "authors": ["ChatGPT"],
+  "version": "${version}",
+  "name": "Custom Trims",
+  "description": "Makes armor trims glow with glow ink sacs.",
+  "authors": ["KibouAkari"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.example.customtrims.CustomTrims"]
+    "main": [
+      "com.example.customtrims.CustomTrims"
+    ]
   },
   "depends": {
     "fabricloader": ">=0.15.0",
-    "minecraft": "1.21.5",
-    "fabric-api": "*"
+    "fabric": "*",
+    "minecraft": "1.20.1"
   }
 }
