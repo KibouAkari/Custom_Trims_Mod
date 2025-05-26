@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "simis_custom_trims",
+  "version": "1.0.0",
+  "name": "Simis Custom Trims",
+  "description": "Adds glowing trims and dyed elytras.",
+  "authors": ["ChatGPT"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.simistrims.SimisCustomTrims"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.5",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:elytra"},
+    {"item": "minecraft:light_gray_dye"}
+  ],
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1,
+    "nbt": "{display:{color:10329495}}"
+  }
+}
